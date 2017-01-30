@@ -5,12 +5,13 @@
     <title>Форма</title>
 </head>
 <body>
-<form action="send">
-    <label for="username">Имя пользователя: </label>
-    <input type="text" id="username" placeholder="Иван"><br>
-    <label for="pass">веедите пароль</label>
-    <input type="password" id="pass" placeholder="ваш пароль" >
-
+<form action="send.php" method="get">
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" placeholder="Иван" name="user">
+        <br><label for="username">Ваш телефон:</label>
+        <input type="tel" placeholder="Телефон" name="phone"><br>
+        <input type="submit" value="Отправить">
+    </form>
 </form>
 </body>
 </html>

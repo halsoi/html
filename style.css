@@ -1,3 +1,18 @@
+#navbar-menu {
+    margin-top: 6px;
+    border: groove;
+    border-right:#ededed;
+}
+.nav-link {
+    margin: 1px;
+    padding: 20px;
+}
+.nav-item {
+    margin: 1px;
+    padding: 10px;
+    border-top: 1px dotted #d7dae3;
+}
+
 .product__characteristics__table {
     margin-top: 3px;
     border-top: 1px dotted #d7dae3;
