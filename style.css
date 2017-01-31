@@ -1,8 +1,53 @@
+body{
+    background: cornflowerblue;
+}
+a, body, html {
+    border: 0;
+    vertical-align: baseline
+}
+
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px
+}
+
+#contactform {
+    margin: 15px;
+    padding: 15px;
+}
+
+#contactform label{
+    width: 100%;
+    }
+#contactform textarea{
+    height: 50px;
+    width: 25%;
+}
+
+.thumbnail > img {
+    width: 25%;
+    height: 20%;
+}
+.product__block{
+    margin: 15px;
+    border-left-width: medium;
+}
+.thumbnails{
+    list-style-type: none;
+}
+
+li{
+    background: url(/images/323-circle-right.svg) no-repeat left center;
+    background-size: 3%;
+    padding-left: 20%;
+}
 #navbar-menu {
     margin-top: 3px;
     border: groove;
     border-right:#ededed;
     border-radius: 15px;
+    list-style-type: none;
 }
 .navbar-brand > img {
     width: 100px;
@@ -19,6 +64,7 @@
     margin: 1px;
     padding: 10px;
     border-top: 1px dotted #d7dae3;
+    list-style-type: none;
 }
 
 .product__characteristics__table {

@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" >-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" ></script>-->
+
+
     <!--fonts Google Roboto-->
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,300,300italic,100italic&subset=latin,cyrillic-ext'>
     <!--adaptive design-->
@@ -56,15 +61,22 @@
     <h1>Контакты для связи</h1>
     <p>Напишите нам</p>
 </div>
-
-<form action="send.php" method="get">
+<div id="contactform">
+    <form action="sendform.php" method="post">
     <label for="username">Имя пользователя:</label>
-    <input type="text" id="username" placeholder="Иван" name="user"><br>
+    <input type="text" id="username" placeholder="например, Иван" name="user"><br>
     <label for="username">Ваш телефон:</label>
     <input type="tel" placeholder="Телефон" name="phone"><br>
     <label for="text-letter"></label>
-    <textarea type="text" id="text-letter"></textarea>
-        <input type="submit" value="Отправить">
+    <textarea type="text" id="text-letter" name="textletter" placeholder="Ваше сообщение" ></textarea><br>
+    <input type="submit" value="Отправить" button class="btn btn-mini"/>
+
+</div>
+
+
+
+
+
 </form>
 <br>
 <p>По любым вопросам звоните нам: <b>8-800-111-11-11</b> звонок бесплатный (с 10 до 22, без выходных) </p>
